@@ -1,5 +1,8 @@
 package org.feather.dynamicdatasource.constants;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @projectName: dynamic-datasource
  * @package: org.feather.dynamic.constants
@@ -12,4 +15,6 @@ package org.feather.dynamicdatasource.constants;
 public interface DataSourceNames {
     String DS1 = "DS1";
     String DS2 = "DS2";
+
+    List<String> datasourceNameList= Arrays.asList(DS1,DS2);
 }
